@@ -1,41 +1,9 @@
 apps:
   worktracker:
     feature_flags:
-      # Core Features
-      new_accomplishment_flow:
+      discount_first_time:
         enabled: true
-        description: "Enable new accomplishment creation flow"
-      
-      ai_suggestions:
-        enabled: false
-        description: "Enable AI-powered accomplishment suggestions"
-      
-      # UI Features
-      dark_mode_toggle:
-        enabled: true
-        description: "Enable dark mode toggle in settings"
-      
-      calendar_improvements:
-        enabled: true
-        description: "Enable enhanced calendar view features"
-      
-      # Premium Features
-      premium_stickers:
-        enabled: true
-        description: "Enable premium sticker collections"
-      
-      advanced_analytics:
-        enabled: false
-        description: "Enable advanced progress analytics"
-      
-      # Experimental Features
-      voice_input:
-        enabled: false
-        description: "Enable voice input for accomplishments"
-      
-      social_sharing:
-        enabled: false
-        description: "Enable social media sharing features"
+        description: "Show first-time user discount"
 
     app_config:
       minimum_supported_version: "1.0.0"
