@@ -1,0 +1,84 @@
+apps:
+  worktracker:
+    feature_flags:
+      # Core Features
+      new_accomplishment_flow:
+        enabled: true
+        description: "Enable new accomplishment creation flow"
+      
+      ai_suggestions:
+        enabled: false
+        description: "Enable AI-powered accomplishment suggestions"
+      
+      # UI Features
+      dark_mode_toggle:
+        enabled: true
+        description: "Enable dark mode toggle in settings"
+      
+      calendar_improvements:
+        enabled: true
+        description: "Enable enhanced calendar view features"
+      
+      # Premium Features
+      premium_stickers:
+        enabled: true
+        description: "Enable premium sticker collections"
+      
+      advanced_analytics:
+        enabled: false
+        description: "Enable advanced progress analytics"
+      
+      # Experimental Features
+      voice_input:
+        enabled: false
+        description: "Enable voice input for accomplishments"
+      
+      social_sharing:
+        enabled: false
+        description: "Enable social media sharing features"
+
+    app_config:
+      minimum_supported_version: "1.0.0"
+      force_update_required: false
+      maintenance_mode: false
+      api_endpoints:
+        feedback_url: "https://example.com/feedback"
+        support_url: "https://example.com/support"
+
+  pizza:
+    feature_flags:
+      # Core Features
+      pizza_randomizer:
+        enabled: true
+        description: "Enable random pizza type selection"
+      
+      trivia_mode:
+        enabled: true
+        description: "Enable pizza trivia questions"
+      
+      # UI Features
+      dark_mode_toggle:
+        enabled: false
+        description: "Enable dark mode toggle in settings"
+      
+      animations:
+        enabled: true
+        description: "Enable pizza animations and transitions"
+      
+      # Premium Features
+      premium_pizzas:
+        enabled: false
+        description: "Enable premium pizza types"
+      
+      # Experimental Features
+      voice_commands:
+        enabled: false
+        description: "Enable voice commands for pizza selection"
+
+    app_config:
+      minimum_supported_version: "1.0.0"
+      force_update_required: false
+      maintenance_mode: false
+      api_endpoints:
+        feedback_url: "https://example.com/feedback"
+        support_url: "https://example.com/support"
