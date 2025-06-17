@@ -2,7 +2,7 @@ apps:
   worktracker:
     feature_flags:
       discount_first_time:
-        enabled: false
+        enabled: true
         description: "Show first-time user discount"
 
     app_config:
