@@ -64,3 +64,17 @@ apps:
       api_endpoints:
         feedback_url: "https://example.com/feedback"
         support_url: "https://example.com/support"
+
+  recipes:
+    feature_flags:
+      discount_first_time:
+        enabled: false
+        description: "Show first-time user discount"
+
+    app_config:
+      minimum_supported_version: "1.0.0"
+      force_update_required: false
+      maintenance_mode: false
+      api_endpoints:
+        feedback_url: "https://example.com/feedback"
+        support_url: "https://example.com/support"
